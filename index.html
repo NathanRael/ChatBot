@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatBot</title>
+
+    <script type="module" src="js/chatBase.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="userContainer">
+            <div class="profilPopup">
+                <a href="#"><i class="fa-solid fa-gear"></i></a>
+                <a href="#"><i class="fa-solid fa-right-to-bracket"></i></a>
+                
+            </div>
+            <div class="imobile">
+                <h2 class="chatTitle">
+                    Messages <span id="messageCount"></span>
+                    
+                    
+                </h2>
+                <i class="fa-solid fa-ellipsis-vertical" id="ellipsis"></i>
+            </div>
+           
+           
+            <div class="mobile">
+                <div class="searchBar">
+                    <input type="text" name="" id="search" placeholder="Rechercher ...">
+                    <i class="fa-solid fa-search"></i>
+                </div>
+                <div class="onlineUsers">
+                    <div class="userBox focusedMessage">
+                        <div class="content">
+                            <div class="image">
+                                <img src="img/profile.png" alt="">
+                                <div class="onlineIcon"></div>
+                            </div>
+                            <div class="userText">
+                                <h4 class="name">ChatBot</h4>
+                                <p class="message" id="botMessage"></p>
+                            </div>
+    
+                        </div>
+                        
+                        <div class="hours">A l'instant</div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="botContainer">
+            <div id="chatBox">
+                <ul id="reply">
+                </ul>
+            </div>
+            <div id="userBox">
+                <i class="fa-solid fa-trash-alt" id="trash"></i>
+                <input type="text" id="userInputEl" placeholder="Envoyer un message ...">
+                <div class="iconContainer">
+                    <!-- Envoyer -->
+                    <i class="fa-solid fa-paper-plane" id="sendMessage"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
