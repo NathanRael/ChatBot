@@ -9,4 +9,4 @@ Simple chatBot using javascript without using any API
 3. Open up the file 'index.html'
 
 ## Note
-This poject won't be updated, there is a new version of this one
+This poject won't be updated, there is a new version of this one right here (https://github.com/NathanRael/ChatbotRemake)
